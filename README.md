@@ -14,5 +14,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
 </div>
-[Clique aqui](https://duartealex1.github.io/LandPage_ActionFigure/)para acessar a LandPage!
+[Clique aqui para ver a LandPage](https://duartealex1.github.io/LandPage_ActionFigure/)
+
 ###
