@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #3db36b;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    border-bottom: 3px solid #0f642f;
+  }
+  
+  /* Produtos */
+  .container {
+    background-color: #eee;/*diminuir o contraste da tela*/
+    min-height: 60vh;
+    padding: 50px;
+  }
+  
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto; /*centralizando conteúdo*/
+  }
+  
+  .card {
+    width: 31%;
+    margin: 1% 1%;
+    display: inline-block; /*representados por linhas horizontais*/
+    padding: 15px;
+  }
+  
+  .product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover; /*mostra o máximo possivel da imagem no tamnho definido*/
+  }
+  
+  
+  /*as imagens foram colocadas em um background em uma div, não são img ou lins "a"*/
+  #img-1 {
+    background-image: url('../image/freeza.jpg'); 
+  }
+  
+  #img-2 {
+    background-image: url('../image/gohan.webp');
+  }
+  
+  #img-3 {
+    background-image: url('../image/vegeta.jpg');
+  }
+  
+  #img-4 {
+    background-image: url('../image/krillin.webp');
+  }
+  
+  #img-5 {
+    background-image: url('../image/pequeno_goku.jpg');
+  }
+  
+  #img-6 {
+    background-image: url('../image/piccolo.jpg');
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #3db36b;
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: #0f642f;
+    
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #3db36b;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+    border-top: #0f642f;
+  }
+
+  #seta {
+    clear: both;
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.7);
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    cursor: n-resize;
+  }
+
+ 
